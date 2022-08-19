@@ -1,0 +1,90 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+.flex1{display: flex;}
+.box1{
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    margin-right: 0px;
+    
+  }
+
+.imgpuma{
+    position: relative;
+    left: 230px; top: 47px;
+    height: 26.79px;
+    width: 67.35px;
+}
+
+.textpuma{
+    top: 58px; left: 260px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 22px;
+    position: absolute;
+}
+
+.menu{
+    font-weight: 500;
+    color: #EE5514;
+    margin-top: 56; margin-left: 425;
+}
+
+.about{
+    color: Black;
+    margin-top: 56; margin-left: 510;
+    opacity: 70%;
+}
+
+.feature{
+    color: Black;
+    margin-top: 56; margin-left: 598;
+    opacity: 70%;
+}
+
+.gallary{
+    color: Black;
+    margin-top: 56; margin-left: 699;
+    opacity: 70%;
+}
+
