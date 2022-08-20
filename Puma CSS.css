@@ -41,50 +41,78 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 
 .flex1{display: flex;}
-.box1{
-    height: 200px;
-    width: 400px;
-    border: 1px solid red;
-    margin-right: 0px;
-    
+
+.divip,.divtp,.divmenu,.divabout,.divfeature,.divgallary,.divbuyimg,.divbuytext{
+    height: 150px;
+    border: 1px solid black;
   }
 
-.imgpuma{
-    position: relative;
-    left: 230px; top: 47px;
-    height: 26.79px;
-    width: 67.35px;
+.divip{
+    padding-left: 230px;
+    padding-top: 47px;
+}
+
+.divtp{
+    margin-left: -37.35px;
+    padding-top: 58px;
 }
 
 .textpuma{
-    top: 58px; left: 260px;
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
     font-size: 22px;
-    position: absolute;
+    line-height: 150%;
 }
+
+.divmenu,.divabout,.divfeature,.divgallary{
+    padding-top: 56px;
+}
+
+.divmenu{margin-left: 101px;}
+
+.divabout,.divfeature,.divgallary{margin-left: 40px;}
 
 .menu{
     font-weight: 500;
     color: #EE5514;
-    margin-top: 56; margin-left: 425;
+    line-height: 160%;
 }
 
-.about{
+.about{ 
     color: Black;
-    margin-top: 56; margin-left: 510;
     opacity: 70%;
+    line-height: 160%;
 }
 
-.feature{
+.feature{ 
     color: Black;
-    margin-top: 56; margin-left: 598;
     opacity: 70%;
+    line-height: 160%;
 }
 
 .gallary{
     color: Black;
-    margin-top: 56; margin-left: 699;
     opacity: 70%;
+    line-height: 160%;
+}
+
+
+.divbuyimg{
+    margin-left: 477px;
+    padding-top: 40px;
+}
+
+.divbuytext{
+    margin-left: -107px;
+    margin-top: 55px;
+    height: 29px;
+}
+
+.buytext{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    width: 77px;
 }
 
