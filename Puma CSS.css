@@ -43,8 +43,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .flex1{display: flex;}
 
 .divip,.divtp,.divmenu,.divabout,.divfeature,.divgallary,.divbuyimg,.divbuytext{
-    height: 150px;
     border: 1px solid black;
+    height: 150px;
   }
 
 .divip{
@@ -116,3 +116,30 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     width: 77px;
 }
 
+.back1{
+    height: 649px;
+    width: 1188px;
+    background: url('Puma img/Rectangle 37.svg');
+}
+h1{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 120%;
+    font-family: Source Serif Pro;
+    margin-top: 55px;
+    margin-left: 230px;
+    border: 1px solid black;
+    width: 366px;
+    height: 216px;
+}
+.shoes{color: rgba(238, 85, 20, 1);}
+.text1{
+    line-height: 160%;
+    opacity: 70%;
+    margin-top: 20px;
+    margin-left: 230px;
+    border: 1px solid black;
+    width: 326px;
+    height: 52px;
+}
