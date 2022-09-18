@@ -1,0 +1,857 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&family=Source+Serif+Pro:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+select {
+  font: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  opacity: 50%;
+}
+
+::-moz-placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  opacity: 50%;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  opacity: 50%;
+}
+
+:-moz-placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  opacity: 50%;
+}
+
+body {
+  min-width: 1600px;
+}
+
+.container {
+  margin: 0px auto;
+  width: 1600px;
+}
+
+.flex1 {
+  display: flex;
+}
+
+.divip, .divtp, .divmenu, .divabout, .divfeature, .divgallary, .divbuyimg, .divbuytext {
+  height: 150px;
+}
+
+.divip {
+  padding-left: 230px;
+  padding-top: 47px;
+}
+
+.divtp {
+  margin-left: -37.35px;
+  padding-top: 58px;
+}
+
+.textpuma {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+}
+
+.divmenu, .divabout, .divfeature, .divgallary {
+  padding-top: 56px;
+}
+
+.divmenu {
+  margin-left: 101px;
+}
+
+.divabout, .divfeature, .divgallary {
+  margin-left: 40px;
+}
+
+.menu {
+  font-weight: 500;
+  color: #EE5514;
+  line-height: 160%;
+}
+
+.about, .feature, .gallary {
+  font-weight: 500;
+  color: Black;
+  opacity: 70%;
+  line-height: 160%;
+}
+.about:hover, .feature:hover, .gallary:hover {
+  font-weight: 500;
+  color: #EE5514;
+  line-height: 160%;
+  opacity: 100%;
+}
+
+.divbuyimg {
+  margin-left: 477px;
+  padding-top: 40px;
+}
+
+.divbuytext {
+  margin-left: -107px;
+  margin-top: 55px;
+  height: 29px;
+}
+
+.buytext {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  width: 77px;
+}
+
+.back1 {
+  height: 649px;
+  width: 1188px;
+  background: url("Puma img/Rectangle 37.svg");
+}
+
+.flex2 {
+  display: flex;
+}
+
+.life {
+  margin-top: 55px;
+  margin-left: 230px;
+}
+
+h1 {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 120%;
+  width: 366px;
+  height: 216px;
+}
+
+.shoes {
+  color: rgb(238, 85, 20);
+}
+
+.divtext1 {
+  margin-top: 291px;
+  margin-left: -366px;
+}
+
+.text1 {
+  line-height: 160%;
+  opacity: 70%;
+  width: 326px;
+  height: 52px;
+}
+
+.pinkbox {
+  margin-top: -19px;
+  margin-left: 311px;
+  background: url("Puma img/Group 367.svg") 11px 11px no-repeat, url("Puma img/Group 367.svg") 11px 25px no-repeat, url("Puma img/Group 367.svg") 11px 39px no-repeat, url("Puma img/Group 367.svg") 11px 53px no-repeat, url("Puma img/Group 367.svg") 11px 67px no-repeat, url("Puma img/Group 367.svg") 11px 81px no-repeat, url("Puma img/Group 367.svg") 11px 95px no-repeat, url("Puma img/Group 367.svg") 11px 109px no-repeat;
+}
+
+.ellipse {
+  min-width: 389px;
+  height: 89px;
+  border-radius: 50%;
+  margin-top: 284px;
+  margin-left: -389px;
+  background: rgba(0, 0, 0, 0.3);
+  filter: blur(30px);
+}
+
+.redpuma {
+  margin-top: -19px;
+  margin-left: -516px;
+}
+
+.flex3 {
+  display: flex;
+  width: 792px;
+  height: 125px;
+  margin-left: 230px;
+  margin-top: 42px;
+  background-color: white;
+  box-shadow: 0px 1px 14px rgba(26, 10, 3, 0.05);
+  border-radius: 5px;
+}
+
+.brand {
+  line-height: 160%;
+  opacity: 0.7;
+  padding-top: 30px;
+  padding-left: 42px;
+}
+
+.brandpuma {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 66px;
+  margin-left: -48px;
+}
+
+.line1 {
+  height: 42px;
+  margin-top: 42px;
+  margin-left: 67px;
+}
+
+.person {
+  line-height: 160%;
+  opacity: 0.7;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.divman {
+  margin-top: 66px;
+  margin-left: -54px;
+}
+
+.man {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  width: 90px;
+  background: url("Puma img/Group 4.svg") 75px 12px no-repeat;
+}
+
+.man:hover {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  width: 90px;
+  background: url("Puma img/Vector.png") 75px 12px no-repeat;
+}
+
+.line2 {
+  height: 42px;
+  margin-top: 42px;
+  margin-left: 20px;
+}
+
+.divsize {
+  margin-top: 66px;
+  margin-left: -31px;
+}
+
+.divprice {
+  margin-top: 66px;
+  margin-left: -39px;
+}
+
+.divbuyimg2 {
+  width: 128px;
+  height: 56px;
+  margin-left: 35px;
+  padding-top: 35px;
+}
+
+.divbuytext2 {
+  margin-left: -98px;
+  margin-top: 50px;
+  height: 29px;
+}
+
+.flex4 {
+  display: flex;
+}
+
+h2 {
+  font-family: "Source Serif Pro", serif;
+  color: #EE5514;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 5%;
+}
+
+.video {
+  margin-top: 204px;
+  margin-left: 230px;
+}
+
+.desire {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  width: 340px;
+  height: 114px;
+  margin-top: 10px;
+}
+
+.text2 {
+  line-height: 160%;
+  opacity: 0.7;
+  width: 326px;
+  height: 78px;
+  margin-top: 20px;
+}
+
+.videopuma {
+  margin-top: 194px;
+  margin-left: 245px;
+  width: 555px;
+  height: 326px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.videopuma2 {
+  margin-top: 140px;
+  margin-left: -505px;
+  width: 555px;
+  height: 326px;
+  border-radius: 10px;
+  filter: blur(3px);
+}
+
+.videopuma2:hover {
+  margin-top: 140px;
+  margin-left: -505px;
+  width: 555px;
+  height: 326px;
+  border-radius: 10px;
+  z-index: 2;
+  filter: none;
+}
+
+.featurebox {
+  width: 1140px;
+  height: 580px;
+  margin-top: 140px;
+  margin-left: 230px;
+}
+
+.featuretitle {
+  text-align: center;
+}
+
+.bestfeature {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flex5 {
+  display: flex;
+}
+
+.quality {
+  margin-top: 60px;
+  width: 360px;
+  height: 423px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.05);
+  background: url("Puma img/Group 361.svg") 143.155px 91.64px no-repeat;
+}
+
+.flexible {
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 360px;
+  height: 423px;
+  border-radius: 10px;
+  background: url("Puma img/Group 359.svg") 145.48px 91.86px no-repeat, rgba(238, 85, 20, 0.1);
+  box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.05);
+}
+
+.longlasting {
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 360px;
+  height: 423px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.05);
+  background: url("Puma img/VectorLL.svg") 141.08px 88.08px no-repeat;
+}
+
+.circle1 {
+  width: 140px;
+  height: 140px;
+  margin-top: 56px;
+  margin-left: 109px;
+  background-color: rgb(18, 101, 225);
+  opacity: 10%;
+  border-radius: 50%;
+}
+
+.qualitytext {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.text3 {
+  margin-top: 10px;
+  margin-left: 60px;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  opacity: 70%;
+  width: 239px;
+}
+
+.readmore {
+  width: 104px;
+  height: 26px;
+  margin-top: 20px;
+  margin-left: 127px;
+  background: url("Puma img/Vector2.svg") right 8px no-repeat;
+}
+
+.readmoretext {
+  font-weight: 500;
+  line-height: 160%;
+  color: #EE5514;
+}
+
+.circle2 {
+  width: 140px;
+  height: 140px;
+  margin-top: 56px;
+  margin-left: 109px;
+  background-color: rgb(95, 46, 234);
+  opacity: 10%;
+  border-radius: 50%;
+}
+
+.flexibletext {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.circle3 {
+  width: 140px;
+  height: 140px;
+  margin-top: 56px;
+  margin-left: 109px;
+  background-color: rgb(170, 33, 234);
+  opacity: 10%;
+  border-radius: 50%;
+}
+
+.longlastingtext {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.gallarybox {
+  border: 1px solid black;
+  width: 1140px;
+  height: 575px;
+  margin-top: 140px;
+  margin-left: 230px;
+}
+
+.years {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  margin-top: 13px;
+}
+
+.testimonialsbox {
+  width: 1140px;
+  height: 481px;
+  margin-top: 140px;
+  margin-left: 230px;
+}
+
+.testimonialstext {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.flex6 {
+  display: flex;
+}
+
+.testimonialsimg {
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.divphoto {
+  margin-left: 127px;
+  margin-top: 60px;
+  height: 364px;
+  width: 458px;
+}
+
+.testimonialsphoto {
+  margin-top: 7px;
+}
+
+.quotes {
+  margin-top: 30px;
+}
+
+.their {
+  margin-top: 10px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+}
+
+.text4 {
+  width: 390px;
+  margin-top: 15.61px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  opacity: 70%;
+}
+
+.abram {
+  margin-top: 25.39px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.athletic {
+  margin-top: 9.61px;
+  font-size: 14px;
+  line-height: 160%;
+  opacity: 80%;
+}
+
+.newsletterbox {
+  display: flex;
+  height: 334px;
+  width: 1140px;
+  margin-left: 230px;
+  margin-top: 140px;
+}
+
+.newsletterimg {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 0px 1px 30px rgba(26, 10, 3, 0.07);
+}
+
+.newsletterbg {
+  width: 652px;
+  background: rgba(129, 168, 218, 0.1);
+  border-radius: 0 10px 10px 0;
+}
+
+.newslettertext {
+  margin-top: 63px;
+  margin-left: 63px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 140%;
+}
+
+.text5 {
+  margin-top: 20px;
+  margin-left: 63px;
+  font-size: 18px;
+  line-height: 160%;
+  opacity: 70%;
+}
+
+.flex7 {
+  display: flex;
+}
+
+.emailaddress {
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 40px;
+  margin-left: 63px;
+  width: 409px;
+  height: 51px;
+  background: rgba(129, 168, 218, 0);
+}
+
+.emailaddress:focus {
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 40px;
+  margin-left: 63px;
+  width: 409px;
+  height: 51px;
+  background: rgba(129, 168, 218, 0);
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.bigbutton {
+  width: 117px;
+  height: 51px;
+  margin-top: 40px;
+}
+
+.lastboxmain {
+  width: 1600px;
+  height: 441px;
+  background-color: rgba(238, 85, 20, 0.04);
+}
+
+.lastboxflex {
+  display: flex;
+}
+
+.lastbox1 {
+  margin-top: 100px;
+  margin-left: 230px;
+  height: 215px;
+}
+
+.textpuma2 {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  margin-left: 30px;
+  margin-top: -15.79px;
+}
+
+.newtownstreet {
+  margin-left: 3px;
+  margin-top: 23px;
+  font-size: 18px;
+  opacity: 70%;
+  line-height: 160%;
+  width: 203px;
+}
+
+.shovasatkhira {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 70%;
+  line-height: 160%;
+}
+
+.socialpuma {
+  display: flex;
+  margin-top: 10px;
+}
+
+.insta, .twitter, .googleplay {
+  margin-left: 25px;
+}
+
+.lastbox2 {
+  height: 164px;
+  margin-top: 107px;
+  margin-left: 77px;
+}
+
+.services {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.lb2aboutus {
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 31px;
+}
+
+.lb2feature {
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 10px;
+}
+
+.lb2gallary {
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 13px;
+}
+
+.lb2text {
+  color: rgba(26, 10, 3, 0.7);
+}
+
+.lb2text:hover {
+  color: #EE5514;
+}
+
+.lastbox3 {
+  height: 167px;
+  margin-top: 107px;
+  margin-left: 77px;
+}
+
+.lastbox4 {
+  height: 208px;
+  margin-top: 107px;
+  margin-left: 124px;
+}
+
+.lb4divtext {
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 31px;
+  width: 247px;
+  color: rgba(26, 10, 3, 0.7);
+}
+
+.lb4mail {
+  display: flex;
+}
+
+.ib4input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  width: 224px;
+  height: 52px;
+  margin-top: 38px;
+  padding-left: 20px;
+  background: rgba(238, 85, 20, 0);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.ib4input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  width: 224px;
+  height: 52px;
+  margin-top: 38px;
+  padding-left: 20px;
+  background: rgba(238, 85, 20, 0);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.ib4button {
+  width: 96px;
+  height: 52px;
+  margin-top: 38px;
+}
+
+.crline {
+  margin-top: 40px;
+  margin-left: 230px;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-weight: 500;
+  text-align: center;
+  opacity: 70%;
+  line-height: 160%;
+}/*# sourceMappingURL=Puma SCSS.css.map */

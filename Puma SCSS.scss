@@ -1,61 +1,10 @@
-*{
-    padding: 0; 
-    margin: 0; 
-    border: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&family=Source+Serif+Pro:wght@600&display=swap');
 
-*,*:before,*:after{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+@import "Puma nulling styles.scss";
 
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
+body{min-width: 1600px;}
 
-nav,footer,header,aside{display: block;}
-
-html,body{
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 16px;
-    font-family:'Poppins', sans-serif;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-input,button,textarea{font-family: inherit;}
-
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner{padding: 0; border: 0;}
-a,a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-
-h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
-
-select {
-    font: inherit;
-    letter-spacing: inherit;
-    word-spacing: inherit;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-
-  select::-ms-expand {
-    display: none;
-  }
-
-::-webkit-input-placeholder {font-size: 14px; line-height: 150%; opacity: 50%;}
-::-moz-placeholder {font-size: 14px; line-height: 150%; opacity: 50%;}
-:-ms-input-placeholder {font-size: 14px; line-height: 150%; opacity: 50%;}
-:-moz-placeholder {font-size: 14px; line-height: 150%; opacity: 50%;}
+.container{margin: 0px auto; width: 1600px;}
 
 .flex1{display: flex;}
 
@@ -94,24 +43,18 @@ select {
     line-height: 160%;
 }
 
-.about{ 
+.about,.feature,.gallary{
+    font-weight: 500;
     color: Black;
     opacity: 70%;
     line-height: 160%;
+    &:hover{
+        font-weight: 500;
+        color: #EE5514;
+        line-height: 160%;
+        opacity: 100%;
+    }
 }
-
-.feature{ 
-    color: Black;
-    opacity: 70%;
-    line-height: 160%;
-}
-
-.gallary{
-    color: Black;
-    opacity: 70%;
-    line-height: 160%;
-}
-
 
 .divbuyimg{
     margin-left: 477px;
@@ -212,7 +155,7 @@ h1{
     line-height: 160%;
     opacity: 0.7;
     padding-top: 30px;
-    padding-left: 55px;
+    padding-left: 42px;
 }
 
 .brandpuma{
@@ -247,6 +190,14 @@ h1{
     line-height: 160%;
     width: 90px;  
     background: url('Puma img/Group\ 4.svg') 75px 12px no-repeat;
+}
+
+.man:hover{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    width: 90px;  
+    background: url('Puma img/Vector.png') 75px 12px no-repeat;
 }
 
 .line2{
@@ -313,10 +264,31 @@ h2{
 }
 
 .videopuma{
-    margin-top: 167px;
+    margin-top: 194px;
     margin-left: 245px;
     width: 555px;
+    height: 326px;
     border-radius: 10px;
+    z-index: 1;
+}
+
+.videopuma2{
+    margin-top: 140px;
+    margin-left: -505px;
+    width: 555px;
+    height: 326px;
+    border-radius: 10px;
+    filter: blur(3px);
+}
+
+.videopuma2:hover{
+    margin-top: 140px;
+    margin-left: -505px;
+    width: 555px;
+    height: 326px;
+    border-radius: 10px;
+    z-index: 2;
+    filter: none;
 }
 
 .featurebox{
@@ -515,7 +487,6 @@ h2{
 .text4{
     width: 390px;
     margin-top: 15.61px;
-    font-family: 'Source Serif Pro', serif;
     font-style: italic;
     font-weight: 500;
     font-size: 14px;
@@ -587,6 +558,20 @@ h2{
     width: 409px;
     height: 51px;
     background: rgba(129, 168, 218, 0);
+}
+
+.emailaddress:focus{
+    padding-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 40px;
+    margin-left: 63px;
+    width: 409px;
+    height: 51px;
+    background: rgba(129, 168, 218, 0);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
 }
 
 .bigbutton{
@@ -672,6 +657,8 @@ h2{
 
 .lb2text{color:rgba(26, 10, 3, 0.7);}
 
+.lb2text:hover{color: #EE5514;}
+
 .lastbox3{
     height: 167px;
     margin-top: 107px;
@@ -689,6 +676,7 @@ h2{
     line-height: 160%;
     margin-top: 31px;
     width: 247px;
+    color:rgba(26, 10, 3, 0.7);
 }
 
 .lb4mail{display: flex;}
@@ -703,6 +691,19 @@ h2{
     background: rgba(238, 85, 20, 0);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+.ib4input:focus{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+    width: 224px;
+    height: 52px;
+    margin-top: 38px;
+    padding-left: 20px;
+    background: rgba(238, 85, 20, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
 }
 
 .ib4button{
