@@ -538,10 +538,10 @@ header {
     line-height: 128%;
   }
   .header__header-3 .person__choice, .header__header-3 .size__choice, .header__header-3 .price__choice {
-    background: url("Puma img/Group 5-17%.svg") 100% 50% no-repeat;
+    background: url("Puma img/Group 5-small.svg") 100% 50% no-repeat;
   }
   .header__header-3 .person__choice:hover, .header__header-3 .size__choice:hover, .header__header-3 .price__choice:hover {
-    background: url("Puma img/Group 5-bright-17%.svg") 100% 50% no-repeat;
+    background: url("Puma img/Group 5-bright-small.svg") 100% 50% no-repeat;
   }
   .header__header-3 .buy-now_2__buy-link .buy-link__text {
     padding: 13.184px 0px;
