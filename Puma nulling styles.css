@@ -27,6 +27,7 @@ html, body {
   line-height: 1;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  color: rgb(26, 10, 3);
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -81,28 +82,4 @@ select {
 
 select::-ms-expand {
   display: none;
-}
-
-::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 150%;
-  opacity: 50%;
-}
-
-::-moz-placeholder {
-  font-size: 14px;
-  line-height: 150%;
-  opacity: 50%;
-}
-
-:-ms-input-placeholder {
-  font-size: 14px;
-  line-height: 150%;
-  opacity: 50%;
-}
-
-:-moz-placeholder {
-  font-size: 14px;
-  line-height: 150%;
-  opacity: 50%;
 }/*# sourceMappingURL=Puma nulling styles.css.map */

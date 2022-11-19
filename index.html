@@ -3,254 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1600">
-    <link rel="stylesheet" href="Puma SCSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="Puma SCSS.CSS">
     <title>Puma</title>
+    <link rel="shortcut icon" href="Puma img/Puma icon/puma-icon.ico">
 </head>
-
 <body>
     <form action="#" method="post" enctype="multipart/form-data">
-        <div class="container"> 
-            <div class="back1"> 
-                <div class="flex1">
-                    <div class="divip"><img class="imgpuma" src="Puma img/Vector.svg" alt="Puma" id="id1"></div>
-                    <div class="divtp"><p class="textpuma">PUMA</p></div>
-                    <div class="divmenu"><a class="menu" href="#id1">Menu</a></div>
-                    <div class="divabout"><a class="about" href="#id2">About</a></div>
-                    <div class="divfeature"><a class="feature" href="#id3">Feature</a></div>
-                    <div class="divgallary"><a class="gallary" href="#id4">Gallary</a></div>
-                    
-                    <div class="divbuyimg">
+        <div class="wrapper">
+            <header>
+                <div class="container">
+                    <div class="header__header-1" id="id_1">
+                        <div class="header-1__logo">
+                            <img src="Puma img/Vector.svg" alt="Puma">
+                            <p class="logo__text">puma</p>
+                        </div>
+                        <nav>
+                            <div class="nav__sections">
+                                <a class="sections__menu" href="#id_1">Menu</a>
+                                <a class="sections__about" href="#id_2">About</a>
+                                <a class="sections__feature" href="#id_3">Feature</a>
+                                <a class="sections__gallary" href="#id_4">Gallary</a>
+                            </div>
+                        </nav>
                         <a href="https://au.puma.com/mens/shoes.html" target="_blank">
-                            <img class="Buyimg" src="Puma img/Frame 1.svg" alt="Buy now">
+                            <p class="header-1__buy-now_1">Buy now</p> 
                         </a>
                     </div>
-                    
-                    <div class="divbuytext">
-                        <a href="https://au.puma.com/mens/shoes.html" target="_blank">
-                            <p class="buytext">Buy now</p> 
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="flex2">
-                    <div class="life"><h1>Life is better in running <span class="shoes">shoes</span>.</h1></div>
-                    <div class="divtext1"><p class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices</p></div>
-                    
-                    <div class="pinkbox"><img src="Puma img/Rectangle 36.svg"></div>
-                    
-                    <div class="ellipse"></div>
-
-                    <div class="redpuma"><img src="Puma img/SYDBcVgqXO-removebg-preview 1.png"></div>
-                </div>
-
-                <div class="flex3">
-                    <p class="brand">Brand</p><p class="brandpuma">Puma</p>
-                    <img class="line1" src="Puma img/Line 3.svg">
-                    <p class="person">Person</p>
-                    <div class="divman">
-                        <select class="man" name="person">
-                            <option value="man">man</option>
-                            <option value="woman">woman</option>
-                            <option value="kid">kid</option>
-                        </select>
-                    </div>
-                    <img class="line2" src="Puma img/Line 3.svg">
-                    <p class="person">Size</p>
-                    <div class="divsize">
-                        <select class="man" name="size">
-                            <option value="large">large</option>
-                            <option value="middle">middle</option>
-                            <option value="small">small</option>
-                        </select>
-                    </div>
-                    <img class="line2" src="Puma img/Line 3.svg">
-                    <p class="person">Price</p>
-                    <div class="divprice">
-                        <select class="man" name="price">
-                            <option value="150">$150</option>
-                            <option value="200">$200</option>
-                            <option value="300">$300</option>
-                        </select>
-                    </div>
-                    <div class="divbuyimg2">
-                        <a href="https://au.puma.com/mens/shoes.html" target="_blank">
-                            <img class="Buyimg" src="Puma img/Frame 1.svg" alt="Buy now">
-                        </a>
-                    </div>
-                    
-                    <div class="divbuytext2">
-                        <a href="https://au.puma.com/mens/shoes.html" target="_blank">
-                            <p class="buytext">Buy now</p> 
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="id2" class="flex4">
-                <div class="video">
-                    <h2>VIDEO</h2>
-                    <p class="desire">Desire the feel of satisfaction.</p>
-                    <P class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices commauris risus.</P>
-                </div>
-
-                <video class="videopuma" src="Puma video/PUMA PERFORMANCE.mp4" poster="Puma img/videopuma_Moment.jpg" controls></video>
-                <video class="videopuma2" src="Puma video/videopuma.mp4" controls></video>
-            </div>
-            
-            <div class="featurebox">
-                <h2 id="id3" class="featuretitle">FEATURE</h2>
-                <p class="bestfeature">We have best feature in Shoes</p>
-                
-                <div class="flex5">
-                    <div class="quality">
-                        <div class="circle1"></div>
-                        <p class="qualitytext">Quality</p>
-                        <p class="text3">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
-                        <div class="readmore">
-                            <a href="https://au.puma.com" target="_blank">
-                                <p class="readmoretext">Read more</p>
-                            </a>
+                    <div class="header__header-2">
+                        <div class="header-2__life">
+                            <h1>Life is better in running
+                                <span class="h1__shoes-animation">shoes</span>.
+                            </h1>
+                            <p class="life__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices</p>
+                        </div>
+                        <div class="header-2__slides">
+                            <div class="slides__slide-box">
+                                <div class="slide-box__pink-circle">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                    <img src="Puma img/Group 367.svg">
+                                </div>
+                                <div class="slide-box__ellipse"></div>
+                                <img class="slide-box__red-puma" src="Puma img/SYDBcVgqXO-removebg-preview 1.png">         
+                            </div>
+                            <div class="slides__slide-button">
+                                <img class="slide-button__grey-button" src="Puma img/Puma__header-2-grey-button.svg">
+                                <img class="slide-button__black-button" src="Puma img/Puma__header-2-button.svg">
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="flexible">
-                        <div class="circle2"></div>
-                        <p class="flexibletext">Flexible</p>
-                        <p class="text3">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
-                        <div class="readmore">
-                            <a href="https://au.puma.com" target="_blank">
-                                <p class="readmoretext">Read more</p>
-                            </a>
+                    <div class="header__header-3">
+                        <div class="header-3__brand">
+                            <p class="brand__text-1">Brand</p>
+                            <p class="brand__text-2">Puma</p>
                         </div>
-                    
-                    </div>
-                    
-                    <div class="longlasting">
-                        <div class="circle3"></div>
-                        <p class="longlastingtext">Long Lasting</p>
-                        <p class="text3">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
-                        <div class="readmore">
-                            <a href="https://au.puma.com" target="_blank">
-                                <p class="readmoretext">Read more</p>
-                            </a>
+                        <img class="header-3__border-1" src="Puma img/Line 3.svg" alt="">
+                        <div class="header-3__person">
+                            <p class="person__text">Person</p>
+                            <select class="person__choice" name="person">
+                                <option value="man">man</option>
+                                <option value="woman">woman</option>
+                                <option value="kid">kid</option>
+                            </select>
+                        </div>
+                        <img class="header-3__border-2" src="Puma img/Line 3.svg" alt="">
+                        <div class="header-3__size">
+                            <p class="size__text">Size</p>
+                            <select class="size__choice" name="size">
+                                <option value="large">large</option>
+                                <option value="middle">middle</option>
+                                <option value="small">small</option>
+                            </select>
+                        </div>
+                        <img class="header-3__border-3" src="Puma img/Line 3.svg" alt="">
+                        <div class="header-3__price">
+                            <p class="price__text">Price</p>
+                            <select class="price__choice" name="price">
+                                <option value="200">$200</option>
+                                <option value="250">$250</option>
+                                <option value="300">$300</option>
+                            </select>
+                        </div>
+                        <div class="header-3__buy-now_2">
+                            <div class="buy-now_2__buy-link">
+                                <a href="https://au.puma.com/mens/shoes.html" target="_blank">
+                                    <p class="buy-link__text">Buy now</p> 
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="gallarybox">
-                <h2 id="id4">GALLARY</h2>
-                <p class="years">40+ YEARS’ EXPERIENCE</p>
-            </div>
-
-            <div class="testimonialsbox">
-                <p class="testimonialstext">Testimonials</p>
-                <div class="flex6">
-                    <img class="testimonialsimg" src="Puma img/Rectangle 13.png" alt="">
-                    <div class="divphoto">
-                        <img class="testimonialsphoto" src="Puma img/Ellipse 17.svg">
-                        <div class="quotes"><img src="Puma img/Group 15.svg"></div>
-                        <p class="their">Their services was best and friendly</p>
-                        <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.</p>
-                        <p class="abram">Abram Korsgaard</p>
-                        <p class="athletic">Athletic</p>
+            </header> 
+            <div class="content">
+                <div class="container">
+                    <div class="content__box-1" id="id_2">
+                        <div class="box-1__video-text">
+                            <p class="model__text-1">Video</p>
+                            <p class="model__text-2">Desire the feel of satisfaction.</p>
+                            <p class="video-text__text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices commauris risus.</p>
+                        </div>
+                        <div class="box-1__video">
+                            <video class="video__video-1" preload="metadata" poster="Puma img/videopuma_Moment-1.jpg" controls>
+                                <source src="Puma video/videopuma.webm" type="video/webm">
+                                <source src="Puma video/videopuma.mp4" type="video/mp4">
+                            </video>
+                            <video class="video__video-2" preload="metadata" poster="Puma img/videopuma_Moment-2.jpg" controls>
+                                <source src="Puma video/PUMA PERFORMANCE.webm" type="video/webm">
+                                <source src="Puma video/PUMA PERFORMANCE.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="content__box-2" id="id_3">
+                        <div class="box-2__feature-text">
+                            <p class="model__text-1">Feature</p>
+                            <p class="model__text-2">We have best feature in Shoes</p>
+                        </div>
+                        <div class="box-2__feature-columns">
+                            <div class="feature-columns__quality-column">
+                                <div class="quality-column__quality-circle">
+                                    <img class="quality-circle__img" src="Puma img/Group 361.svg" alt="">
+                                </div>
+                                <p class="quality-column__text-1">Quality</p>
+                                <p class="quality-column__text-2">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
+                                <a href="https://au.puma.com" target="_blank">
+                                    <p class="read-more">Read more</p>
+                                </a>
+                            </div>
+                            <div class="feature-columns__flexible-column">
+                                <div class="flexible-column__flexible-circle">
+                                    <img class="flexible-circle__img" src="Puma img/Group 359.svg" alt="">
+                                </div>
+                                <p class="flexible-column__text-1">Flexible</p>
+                                <p class="flexible-column__text-2">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
+                                <a href="https://au.puma.com" target="_blank">
+                                    <p class="read-more">Read more</p>
+                                </a>
+                            </div>
+                            <div class="feature-columns__ll-column">
+                                <div class="ll-column__ll-circle">
+                                    <img class="ll-circle__img" src="Puma img/Group 360.svg" alt="">
+                                </div>
+                                <p class="ll-column__text-1">Long Lasting</p>
+                                <p class="ll-column__text-2">Lorem ipsum dolor sit consectetur adipiscing elit. Viverra in ul</p>
+                                <a href="https://au.puma.com" target="_blank">
+                                    <p class="read-more">Read more</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__box-4">
+                        <div class="box-4__testimonials">
+                            <p class="model__text-2">Testimonials</p>
+                        </div>
+                        <div class="box-4__testimonials-row">
+                            <div class="testimonials-row__testimonials-pic">
+                                <img class="testimonials-pic__img" src="Puma img/Rectangle 13.jpg" alt="">
+                            </div>
+                            <div class="testimonials-row__testimonials-comments">
+                                <img class="testimonials-comments__photo" src="Puma img/Puma__photo-1.svg" alt="">
+                                <img class="testimonials-comments__quotes" src="Puma img/Group 15.svg" alt="">
+                                <p class="testimonials-comments__text-1">Their services was best and friendly</p>
+                                <p class="testimonials-comments__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.</p>
+                                <p class="testimonials-comments__text-3">Abram Korsgaard</p>
+                                <p class="testimonials-comments__text-4">Athletic</p>
+                                <div class="testimonials-comments__testimonials-buttons">
+                                    <div class="testimonials-buttons__right-button">
+                                        <img class="grey-right__img" src="Puma img/Puma__box-4-right-grey-button.svg" alt="">
+                                        <img class="black-right__img" src="Puma img/Puma__box-4-right-black-button.svg" alt="">
+                                    </div>
+                                    <div class="testimonials-buttons__left-button">
+                                        <img class="grey-left__img" src="Puma img/Puma__box-4-left-grey-button.svg" alt="">
+                                        <img class="black-left__img" src="Puma img/Puma__box-4-left-black-button.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__box-5">
+                        <div class="box-5__newsletter-pic">
+                            <img class="newsletter-pic__img" src="Puma img/Rectangle 38.png" alt="">
+                        </div>
+                        <div class="box-5__newsletter-block">
+                            <div class="newsletter-block__newsletter-content">
+                                <p class="newsletter-content__text-1">Sign up to our Newsletter</p>
+                                <p class="newsletter-content__text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sagittis, Atiam lorem sed justo amet viverra in a.</p>
+                                <div class="newsletter-content__newsletter-email">
+                                    <input class="newsletter-email__address" type="email" name="email" placeholder="Enter your email address">
+                                    <button class="newsletter-email__send-button" type="submit">
+                                        <p>Send</p>
+                                    </button> 
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="newsletterbox">
-                <img class="newsletterimg" src="Puma img/Rectangle 38.png">
-                <div class="newsletterbg">
-                    <p class="newslettertext">Sign up to our Newsletter</p>
-                    <p class="text5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sagittis, Atiam lorem sed justo amet viverra in a.</p>
-                    <div class="flex7">
-                        <input class="emailaddress" type="text" name="email" placeholder="Enter your email address">
-                        <button class="bigbutton" type="submit">
-                            <img src="Puma img/Frame 5.svg" alt="">
-                        </button> 
-                    </div>
-                </div>
-            </div>
-
-            <div class="lastboxmain">
-                <div class="lastboxflex">
-                    <div class="lastbox1">
-                        <img src="Puma img/Vector.svg" alt="Puma">
-                        <p class="textpuma2">PUMA</p>
-                        <p class="newtownstreet">10 New Town Street, V2 5NW, Newstate, USA.</p>
-                        <p class="shovasatkhira">shovasatkhira88@gmail.com</p>
-                        <div class="socialpuma">
-                            <div>
+            <footer>
+                <div class="container">
+                    <div class="footer__footer-box">
+                        <div class="footer-box__contacts">
+                            <div class="contacts__logo">
+                                <img src="Puma img/Vector.svg" alt="Puma">
+                                <p class="logo__text">puma</p>
+                            </div>
+                            <p class="contacts__address">Victoria, 111 Keys Road, Moorabbin 3189</p>
+                            <a class="contacts__email" href="info-au@puma.com">info-au@puma.com</a>
+                            <div class="contacts__social-networks">
                                 <a href="https://www.facebook.com/PUMA/" target="_blank">
                                     <img src="Puma img/Group 172.svg" alt="">
                                 </a>
-                            </div>
-                            <div class="insta">
-                                <a href="https://www.instagram.com/puma/" target="_blank">
+                                <a href="https://www.instagram.com/pumaau/" target="_blank">
                                     <img src="Puma img/Group 88.svg" alt="">
                                 </a>
-                            </div>
-                            <div class="twitter">
                                 <a href="https://twitter.com/puma/" target="_blank">
                                     <img src="Puma img/Group 171.svg" alt="">
                                 </a>
-                            </div>
-                            <div class="googleplay">
                                 <a href="https://play.google.com/store/apps/details?id=ru.puma.android&hl=ru&gl=US" target="_blank">
                                     <img src="Puma img/Group 87.svg" alt="">
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="lastbox2">
-                        <p class="services">Our services</p>
-                        <div class="lb2aboutus">
-                            <a href="#id2">
-                                <p class="lb2text">About us</p>
-                            </a>
+                        <div class="footer-box__services">
+                            <p class="services__title">Our services</p>
+                            <div class="services__services-links">
+                                <a class="services-links__about-us" href="#id_2">About us</a>
+                                <a class="services-links__feature" href="#id_3">Feature</a>
+                                <a class="services-links__gallary" href="#id_4">Gallary</a>
+                            </div>
                         </div>
-                        <div class="lb2feature">
-                            <a href="#id3">
-                                <p class="lb2text">Feature</p>
-                            </a>
+                        <div class="footer-box__support">
+                            <p class="support__title">Support</p>
+                            <div class="support__support-links">
+                                <a class="support-links__p-p" href="https://au.puma.com/privacy-policy" target="_blank">Privacy & Policy</a>
+                                <a class="support-links__t-c" href="https://au.puma.com/terms-of-sale" target="_blank">Terms & Condition</a>
+                                <a class="support-links__s-s" href="https://puma-au.zendesk.com/hc/en-us" target="_blank">Support System</a>
+                            </div>
                         </div>
-                        <div class="lb2gallary">
-                            <a href="#id4">
-                                <p class="lb2text">Gallary</p>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="lastbox3">
-                        <p class="services">Support</p>
-                        <div class="lb2aboutus">
-                            <p class="lb2text">Privacy & Policy</p>
-                        </div>
-                        <div class="lb2feature">
-                            <p class="lb2text">Terms & Condition</p>
-                        </div>
-                        <div class="lb2feature">
-                            <p class="lb2text">Support System</p>
+                        <div class="footer-box__contact-us">
+                            <p class="contact-us__title">Contact us</p>
+                            <p class="contact-us__text">Lorem ipsum dolor sit amet consectetur adipiscin.</p>
+                            <div class="contact-us__footer-email">
+                                <input class="footer-email__address" type="email" name="email" placeholder="Mail address">
+                                <button class="footer-email__send-button" type="submit">
+                                    <p>Send</p>
+                                </button> 
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="lastbox4">
-                        <p class="services">Contact us</p>
-                        <div class="lb4divtext">Lorem ipsum dolor sit amet consectetur adipiscin.</div>
-                        <div class="lb4mail">
-                            <input class="ib4input" placeholder="Mail address" type="text" name="mail">
-                            <button class="ib4button" type="submit">
-                                <img src="Puma img/Frame 31.svg" alt="">
-                            </button>
-                        </div>
+                    <div class="footer__copyright">
+                        <p class="copyright__copyright-1">© 2022 PUMA. Designed by <a class="copyright-1__email" href="shovasatkhira88@gmail.com">shovasatkhira88@gmail.com</a></p>
+                        <p class="copyright__copyright-2">Developed by <a class="copyright-2__email" href="rizhovgerman@mail.ru">rizhovgerman@mail.ru</a></p>
                     </div>
                 </div>
-
-                <img class="crline" src="Puma img/Line 13.svg">
-                <p class="copyright">Copyright 2022 The PUMA All Rights Reserved.</p>
-            </div>
+            </footer>
         </div>
     </form>
 </body>
