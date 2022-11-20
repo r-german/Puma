@@ -33,10 +33,6 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
-  font-family: inherit;
-}
-
 input::-ms-clear {
   display: none;
 }
@@ -71,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-select {
-  font: inherit;
+input, button, textarea, select {
+  font-family: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
   -moz-appearance: none;
