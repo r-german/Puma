@@ -1825,10 +1825,10 @@ footer{
 input:-moz-placeholder {font-size: 14px; line-height: 150%; opacity: 50%;}
 
 @media(max-width: 992px){
-    ::-webkit-input-placeholder {font-size: 12.6px; line-height: 166.666%;}
-    ::-moz-placeholder {font-size: 12.6px; line-height: 166.666%;}
-    :-ms-input-placeholder {font-size: 12.6px; line-height: 166.666%;}
-    input:-moz-placeholder {font-size: 12.6px; line-height: 166.666%;}
+    ::-webkit-input-placeholder {font-size: 12.6px; line-height: 166.6666667%;}
+    ::-moz-placeholder {font-size: 12.6px; line-height: 166.6666667%;}
+    :-ms-input-placeholder {font-size: 12.6px; line-height: 166.6666667%;}
+    input:-moz-placeholder {font-size: 12.6px; line-height: 166.6666667%;}
 }
 @media(max-width: 600px){
     ::-webkit-input-placeholder {text-align: center;}
