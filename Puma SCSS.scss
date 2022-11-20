@@ -1266,7 +1266,10 @@ header{
                     border-radius: 5px 0px 0px 5px;
                     width: 77.75665%;
                     background: rgba(129, 168, 218, 0);
-                    &:focus{box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);}
+                    &:focus{
+                        -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+                    }
                 }
                 .newsletter-email__send-button{
                     width: 22.24335%;
@@ -1307,7 +1310,10 @@ header{
                 .newsletter-content__newsletter-email{
                     .newsletter-email__address{
                         padding: 12.45px 30px;
-                        &:focus{box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);}
+                        &:focus{
+                            -webkit-box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
+                            box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
+                        }
                     }
                     .newsletter-email__send-button{
                         padding: 13.878px;
@@ -1355,7 +1361,10 @@ header{
                 }
                 .newsletter-content__newsletter-email{
                     .newsletter-email__address{
-                        &:focus{box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);}
+                        &:focus{
+                            -webkit-box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
+                            box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
+                        }
                         padding: 9.9px 25px;
                     }
                     .newsletter-email__send-button{
@@ -1387,7 +1396,10 @@ header{
                     margin: 0px -20px;
                     .newsletter-email__address{
                         width: 100%;
-                        &:focus{box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);}
+                        &:focus{
+                            -webkit-box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
+                            box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
+                        }
                         padding: 7.35px 25px;
                         border: 1px solid rgba(0, 0, 0, 0.2);
                         border-bottom: none;
@@ -1491,7 +1503,10 @@ footer{
                 padding: 15px 20px;
                 background: rgba(238, 85, 20, 0);
                 border-radius: 5px 0px 0px 5px;
-                &:focus{box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);}
+                &:focus{
+                    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+                    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+                }
             }
             .footer-email__send-button{
                 width: 30%;
@@ -1564,7 +1579,10 @@ footer{
             .contact-us__footer-email{
                 .footer-email__address{  
                     padding: 12.45px 20px;
-                    &:focus{box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);}
+                    &:focus{
+                        -webkit-box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
+                    }
                 }
                 .footer-email__send-button{
                     padding: 13.878px;
@@ -1641,7 +1659,10 @@ footer{
                 min-width: 262px;
                 .footer-email__address{  
                     padding: 9.9px 20px;
-                    &:focus{box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);}
+                    &:focus{
+                        -webkit-box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
+                    }
                 }
                 .footer-email__send-button{
                     padding: 13.232px;
@@ -1779,7 +1800,10 @@ footer{
                 width: 172.9px;
                 .footer-email__address{  
                     padding: 7.35px 15px;
-                    &:focus{box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);}
+                    &:focus{
+                        -webkit-box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
+                    }
                 }
                 .footer-email__send-button{
                     padding: 12.362px;
