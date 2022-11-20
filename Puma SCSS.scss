@@ -1267,7 +1267,6 @@ header{
                     width: 77.75665%;
                     background: rgba(129, 168, 218, 0);
                     &:focus{
-                        -webkit-appearance: none;
                         -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
                         box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
                     }
@@ -1312,7 +1311,6 @@ header{
                     .newsletter-email__address{
                         padding: 12.45px 30px;
                         &:focus{
-                            -webkit-appearance: none;
                             -webkit-box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
                             box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
                         }
@@ -1364,7 +1362,6 @@ header{
                 .newsletter-content__newsletter-email{
                     .newsletter-email__address{
                         &:focus{
-                            -webkit-appearance: none;
                             -webkit-box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
                             box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
                         }
@@ -1400,7 +1397,6 @@ header{
                     .newsletter-email__address{
                         width: 100%;
                         &:focus{
-                            -webkit-appearance: none;
                             -webkit-box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
                             box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
                         }
@@ -1508,7 +1504,6 @@ footer{
                 background: rgba(238, 85, 20, 0);
                 border-radius: 5px 0px 0px 5px;
                 &:focus{
-                    -webkit-appearance: none;
                     -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
                     box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
                 }
@@ -1585,7 +1580,6 @@ footer{
                 .footer-email__address{  
                     padding: 12.45px 20px;
                     &:focus{
-                        -webkit-appearance: none;
                         -webkit-box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
                         box-shadow: 0 0 6.3px 1px rgba(0, 0, 0, 0.3);
                     }
@@ -1666,7 +1660,6 @@ footer{
                 .footer-email__address{  
                     padding: 9.9px 20px;
                     &:focus{
-                        -webkit-appearance: none;
                         -webkit-box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
                         box-shadow: 0 0 5.6px 1px rgba(0, 0, 0, 0.3);
                     }
@@ -1808,7 +1801,6 @@ footer{
                 .footer-email__address{  
                     padding: 7.35px 15px;
                     &:focus{
-                        -webkit-appearance: none;
                         -webkit-box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
                         box-shadow: 0 0 4.9px 1px rgba(0, 0, 0, 0.3);
                     }
