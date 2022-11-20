@@ -28,6 +28,8 @@ html,body{
     -webkit-text-size-adjust: 100%;
 }
 
+input, button, textarea{font-family: inherit;}
+
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner{padding: 0; border: 0;}
@@ -38,8 +40,8 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
-input, button, textarea, select{
-    font-family: inherit;
+select{
+    font: inherit;
     letter-spacing: inherit;
     word-spacing: inherit;
     -moz-appearance: none;
