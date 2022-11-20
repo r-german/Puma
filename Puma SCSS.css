@@ -2020,15 +2020,19 @@ input:-moz-placeholder {
 @media (max-width: 600px) {
   ::-webkit-input-placeholder {
     text-align: center;
+    line-height: normal;
   }
   ::-moz-placeholder {
     text-align: center;
+    line-height: normal;
   }
   :-ms-input-placeholder {
     text-align: center;
+    line-height: normal;
   }
   input:-moz-placeholder {
     text-align: center;
+    line-height: normal;
   }
 }
 @media (max-width: 479px) {

@@ -1831,10 +1831,10 @@ input:-moz-placeholder {font-size: 14px; line-height: 100%; opacity: 50%;}
     input:-moz-placeholder {font-size: 12.6px;}
 }
 @media(max-width: 600px){
-    ::-webkit-input-placeholder {text-align: center;}
-    ::-moz-placeholder {text-align: center;}
-    :-ms-input-placeholder {text-align: center;}
-    input:-moz-placeholder {text-align: center;}
+    ::-webkit-input-placeholder {text-align: center; line-height: normal;}
+    ::-moz-placeholder {text-align: center; line-height: normal;}
+    :-ms-input-placeholder {text-align: center; line-height: normal;}
+    input:-moz-placeholder {text-align: center; line-height: normal;}
 }
 @media(max-width: 479px){
     ::-webkit-input-placeholder {font-size: 11.2px;}
