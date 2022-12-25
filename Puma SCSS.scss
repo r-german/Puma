@@ -148,7 +148,11 @@ header{
             font-size: 61px;
             line-height: 120%;
             max-width: 351px;
-            .h1__shoes-animation{animation: shoes-color 2s ease-in 1 normal 0.5s forwards;}
+            .h1__shoes-animation{
+                display: inline-block;
+                transform: translate3d(0, 0, 0);
+                animation: shoes-color 2s ease-in 1 normal 0.5s forwards;
+            }
             @keyframes shoes-color {
                 0%{color: black;}
                 100%{color: rgba(238, 85, 20, 1);}
@@ -626,20 +630,21 @@ header{
             border-radius: 10px;
             width: 100%;
             position: absolute;
+            z-index: 1;
         }
         .video__video-1{
             top: 100%;
             right: 9%;
             transform: translateY(-100%);
-            z-index: 1;
+            z-index: 2;
         }
         .video__video-2{
             top: 0px;
             left: 0px;
             filter: blur(3px);
-            transition: all 0.5s linear 0s;
+            transition: filter 0.5s linear 0s;
             &:hover{
-                z-index: 2;
+                z-index: 3;
                 filter: none;
             }
         }
