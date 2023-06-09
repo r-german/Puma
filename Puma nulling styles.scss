@@ -1,0 +1,54 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    border: 0;
+}
+
+*, *::before, *::after{box-sizing: border-box;}
+
+html, body{
+    line-height: 1;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    color: rgba(26, 10, 3, 1);
+    scroll-behavior: smooth;
+    height: 100%;
+    text-size-adjust: 100%;
+}
+
+body._lock{overflow: hidden;}
+
+body._using-mouse :focus{outline: none;}
+
+input, button, textarea{font-family: inherit;}
+
+input, input:focus{appearance: none;}
+
+button{cursor: pointer;}
+
+select{
+    font: inherit;
+    //color: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    appearance: none;
+}
+
+a{text-decoration: none;}
+
+.wrapper{
+    max-width: 1600px;
+    margin: 0px auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.content{flex: 1 1 auto;}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
