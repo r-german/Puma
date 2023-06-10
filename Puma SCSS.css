@@ -35,20 +35,14 @@ input, button, textarea {
   font-family: inherit;
 }
 
-input, input:focus {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
 button {
   cursor: pointer;
 }
 
 select {
-  font: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -70,12 +64,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   overflow: hidden;
-}
-
-.content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
 }
 
 .container {
@@ -336,8 +324,6 @@ a {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
     position: fixed;
     z-index: 30;
     top: 0;
@@ -1613,25 +1599,34 @@ a {
 .content__box-3 .box-3__tabs #tab-btn-1:checked ~ .tabs__labels .label-1 {
   color: rgb(238, 85, 20);
   opacity: 1;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(238, 85, 20);
   text-underline-offset: 7px;
 }
 .content__box-3 .box-3__tabs #tab-btn-2:checked ~ .tabs__labels .label-2 {
   color: rgb(238, 85, 20);
   opacity: 1;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(238, 85, 20);
   text-underline-offset: 7px;
 }
 .content__box-3 .box-3__tabs #tab-btn-3:checked ~ .tabs__labels .label-3 {
   color: rgb(238, 85, 20);
   opacity: 1;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(238, 85, 20);
   text-underline-offset: 7px;
 }
 .content__box-3 .box-3__tabs #tab-btn-4:checked ~ .tabs__labels .label-4 {
   color: rgb(238, 85, 20);
   opacity: 1;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
   text-underline-offset: 7px;
 }
 
@@ -2228,7 +2223,7 @@ a {
       -ms-flex: 0 1 40.17544%;
           flex: 0 1 40.17544%;
 }
-.swiper.box-4-swiper .swiper-wrapper .swiper-slide img {
+.swiper.box-4-swiper .swiper-wrapper .swiper-slide embed {
   display: block;
 }
 .swiper.box-4-swiper .swiper-wrapper .swiper-slide .swiper-slide__photo {
